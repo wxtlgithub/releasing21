@@ -6,7 +6,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 					    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 	<bean id="needOverPay" class="java.lang.Boolean">
-		<constructor-arg index="0" value="true" />
+		<constructor-arg index="0" value="false" />
 	</bean>
 	<!-- 接口服务的Bean前缀是ps -->
 	
